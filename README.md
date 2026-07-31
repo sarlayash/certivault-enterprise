@@ -21,3 +21,7 @@ The included backend uses a `Certificates` sheet as the source of truth and supp
 Purpose must be Certificate of Completion, Certificate of Excellence, or Certificate of Participation. Template is 1–5.
 
 Use `sample-learners-upload.csv` as a ready-to-upload reference file.
+
+## No-backend QR verification (GitHub Pages)
+
+For QR scanning on any phone without Google Sheets, the live site reads the root `sample-learners-upload.csv` file as its shared certificate registry. Replace that file with your latest learner CSV and commit/push it to GitHub. Dashboard uploads are local browser previews only; a static GitHub Pages website cannot save a CSV uploaded in the dashboard back to GitHub automatically.
